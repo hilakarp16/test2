@@ -11,7 +11,7 @@ public class Main {
         String[] grades = line.split(",");
         int total = getTotal(grades);
         double average = (double) total/grades.length;
-        System.out.println("The average is2: " + average);
+        System.out.println("The average is: " + average);
     }
 
     private static int getTotal(String[] grades) {
